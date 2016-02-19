@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MMPeopleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tblADSingleValue">
+          <Key>
+            <PropertyRef Name="ObjectID" />
+          </Key>
+          <Property Name="ObjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="iscriticalsystemobject" Type="bit" />
+          <Property Name="mapirecipient" Type="bit" />
+          <Property Name="objectguid" Type="uniqueidentifier" />
+          <Property Name="objectsid" Type="varchar(max)" />
+          <Property Name="thumbnailphoto" Type="varbinary(max)" />
+          <Property Name="whenchanged" Type="datetime" />
+          <Property Name="whencreated" Type="datetime" />
+          <Property Name="admincount" Type="int" />
+          <Property Name="badpwdcount" Type="int" />
+          <Property Name="countrycode" Type="int" />
+          <Property Name="deleteditemflags" Type="int" />
+          <Property Name="grouptype" Type="int" />
+          <Property Name="instancetype" Type="int" />
+          <Property Name="internetencoding" Type="int" />
+          <Property Name="logoncount" Type="int" />
+          <Property Name="primarygroupid" Type="int" />
+          <Property Name="samaccounttype" Type="int" />
+          <Property Name="systemflags" Type="int" />
+          <Property Name="useraccountcontrol" Type="int" />
+          <Property Name="accountexpires" Type="bigint" />
+          <Property Name="badpasswordtime" Type="bigint" />
+          <Property Name="lastlogoff" Type="bigint" />
+          <Property Name="lastlogon" Type="bigint" />
+          <Property Name="lastlogontimestamp" Type="bigint" />
+          <Property Name="lockouttime" Type="bigint" />
+          <Property Name="pwdlastset" Type="bigint" />
+          <Property Name="usnchanged" Type="bigint" />
+          <Property Name="usncreated" Type="bigint" />
+          <Property Name="adspath" Type="varchar(max)" />
+          <Property Name="altrecipient" Type="varchar(max)" />
+          <Property Name="assistant" Type="varchar(max)" />
+          <Property Name="autoreplymessage" Type="varchar(max)" />
+          <Property Name="cn" Type="varchar(max)" />
+          <Property Name="co" Type="varchar(max)" />
+          <Property Name="comment" Type="varchar(max)" />
+          <Property Name="company" Type="varchar(max)" />
+          <Property Name="department" Type="varchar(max)" />
+          <Property Name="description" Type="varchar(max)" />
+          <Property Name="displayname" Type="varchar(max)" />
+          <Property Name="displaynameprintable" Type="varchar(max)" />
+          <Property Name="distinguishedname" Type="varchar(max)" />
+          <Property Name="facsimiletelephonenumber" Type="varchar(max)" />
+          <Property Name="folderpathname" Type="varchar(max)" />
+          <Property Name="givenname" Type="varchar(max)" />
+          <Property Name="homedirectory" Type="varchar(max)" />
+          <Property Name="homedrive" Type="varchar(max)" />
+          <Property Name="homemdb" Type="varchar(max)" />
+          <Property Name="homemta" Type="varchar(max)" />
+          <Property Name="homephone" Type="varchar(max)" />
+          <Property Name="info" Type="varchar(max)" />
+          <Property Name="initials" Type="varchar(max)" />
+          <Property Name="ipphone" Type="varchar(max)" />
+          <Property Name="l" Type="varchar(max)" />
+          <Property Name="mail" Type="varchar(max)" />
+          <Property Name="mailnickname" Type="varchar(max)" />
+          <Property Name="managedby" Type="varchar(max)" />
+          <Property Name="manager" Type="varchar(max)" />
+          <Property Name="mobile" Type="varchar(max)" />
+          <Property Name="msexchhomeservername" Type="varchar(max)" />
+          <Property Name="name" Type="varchar(max)" />
+          <Property Name="objectcategory" Type="varchar(max)" />
+          <Property Name="otherhomephone" Type="varchar(max)" />
+          <Property Name="otherpager" Type="varchar(max)" />
+          <Property Name="othertelephone" Type="varchar(max)" />
+          <Property Name="pager" Type="varchar(max)" />
+          <Property Name="physicaldeliveryofficename" Type="varchar(max)" />
+          <Property Name="postalcode" Type="varchar(max)" />
+          <Property Name="samaccountname" Type="varchar(max)" />
+          <Property Name="sn" Type="varchar(max)" />
+          <Property Name="st" Type="varchar(max)" />
+          <Property Name="streetaddress" Type="varchar(max)" />
+          <Property Name="targetaddress" Type="varchar(max)" />
+          <Property Name="telephoneassistant" Type="varchar(max)" />
+          <Property Name="telephonenumber" Type="varchar(max)" />
+          <Property Name="textencodedoraddress" Type="varchar(max)" />
+          <Property Name="title" Type="varchar(max)" />
+          <Property Name="unauthorig" Type="varchar(max)" />
+          <Property Name="unauthorigbl" Type="varchar(max)" />
+          <Property Name="userprincipalname" Type="varchar(max)" />
+          <Property Name="wwwhomepage" Type="varchar(max)" />
+          <Property Name="Deleted" Type="bit" Nullable="false" />
+          <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ModifiedOn" Type="datetime" />
+          <Property Name="ModifiedBy" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="MMPeopleModelStoreContainer">
+          <EntitySet Name="tblADSingleValue" EntityType="Self.tblADSingleValue" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MMPeopleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tblADSingleValue">
+          <Key>
+            <PropertyRef Name="ObjectID" />
+          </Key>
+          <Property Name="ObjectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="iscriticalsystemobject" Type="Boolean" />
+          <Property Name="mapirecipient" Type="Boolean" />
+          <Property Name="objectguid" Type="Guid" />
+          <Property Name="objectsid" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="thumbnailphoto" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="whenchanged" Type="DateTime" Precision="3" />
+          <Property Name="whencreated" Type="DateTime" Precision="3" />
+          <Property Name="admincount" Type="Int32" />
+          <Property Name="badpwdcount" Type="Int32" />
+          <Property Name="countrycode" Type="Int32" />
+          <Property Name="deleteditemflags" Type="Int32" />
+          <Property Name="grouptype" Type="Int32" />
+          <Property Name="instancetype" Type="Int32" />
+          <Property Name="internetencoding" Type="Int32" />
+          <Property Name="logoncount" Type="Int32" />
+          <Property Name="primarygroupid" Type="Int32" />
+          <Property Name="samaccounttype" Type="Int32" />
+          <Property Name="systemflags" Type="Int32" />
+          <Property Name="useraccountcontrol" Type="Int32" />
+          <Property Name="accountexpires" Type="Int64" />
+          <Property Name="badpasswordtime" Type="Int64" />
+          <Property Name="lastlogoff" Type="Int64" />
+          <Property Name="lastlogon" Type="Int64" />
+          <Property Name="lastlogontimestamp" Type="Int64" />
+          <Property Name="lockouttime" Type="Int64" />
+          <Property Name="pwdlastset" Type="Int64" />
+          <Property Name="usnchanged" Type="Int64" />
+          <Property Name="usncreated" Type="Int64" />
+          <Property Name="adspath" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="altrecipient" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="assistant" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="autoreplymessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="cn" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="co" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="company" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="department" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="displayname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="displaynameprintable" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="distinguishedname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="facsimiletelephonenumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="folderpathname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="givenname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="homedirectory" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="homedrive" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="homemdb" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="homemta" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="homephone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="initials" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ipphone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="l" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="mailnickname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="managedby" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="manager" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="mobile" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="msexchhomeservername" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="objectcategory" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="otherhomephone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="otherpager" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="othertelephone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="pager" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="physicaldeliveryofficename" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="postalcode" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="samaccountname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="sn" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="st" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="streetaddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="targetaddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="telephoneassistant" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="telephonenumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="textencodedoraddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="unauthorig" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="unauthorigbl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="userprincipalname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="wwwhomepage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Deleted" Type="Boolean" Nullable="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="MMPeopleEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tblADSingleValues" EntityType="Self.tblADSingleValue" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MMPeopleModelStoreContainer" CdmEntityContainer="MMPeopleEntities">
+          <EntitySetMapping Name="tblADSingleValues">
+            <EntityTypeMapping TypeName="MMPeopleModel.tblADSingleValue">
+              <MappingFragment StoreEntitySet="tblADSingleValue">
+                <ScalarProperty Name="ObjectID" ColumnName="ObjectID" />
+                <ScalarProperty Name="iscriticalsystemobject" ColumnName="iscriticalsystemobject" />
+                <ScalarProperty Name="mapirecipient" ColumnName="mapirecipient" />
+                <ScalarProperty Name="objectguid" ColumnName="objectguid" />
+                <ScalarProperty Name="objectsid" ColumnName="objectsid" />
+                <ScalarProperty Name="thumbnailphoto" ColumnName="thumbnailphoto" />
+                <ScalarProperty Name="whenchanged" ColumnName="whenchanged" />
+                <ScalarProperty Name="whencreated" ColumnName="whencreated" />
+                <ScalarProperty Name="admincount" ColumnName="admincount" />
+                <ScalarProperty Name="badpwdcount" ColumnName="badpwdcount" />
+                <ScalarProperty Name="countrycode" ColumnName="countrycode" />
+                <ScalarProperty Name="deleteditemflags" ColumnName="deleteditemflags" />
+                <ScalarProperty Name="grouptype" ColumnName="grouptype" />
+                <ScalarProperty Name="instancetype" ColumnName="instancetype" />
+                <ScalarProperty Name="internetencoding" ColumnName="internetencoding" />
+                <ScalarProperty Name="logoncount" ColumnName="logoncount" />
+                <ScalarProperty Name="primarygroupid" ColumnName="primarygroupid" />
+                <ScalarProperty Name="samaccounttype" ColumnName="samaccounttype" />
+                <ScalarProperty Name="systemflags" ColumnName="systemflags" />
+                <ScalarProperty Name="useraccountcontrol" ColumnName="useraccountcontrol" />
+                <ScalarProperty Name="accountexpires" ColumnName="accountexpires" />
+                <ScalarProperty Name="badpasswordtime" ColumnName="badpasswordtime" />
+                <ScalarProperty Name="lastlogoff" ColumnName="lastlogoff" />
+                <ScalarProperty Name="lastlogon" ColumnName="lastlogon" />
+                <ScalarProperty Name="lastlogontimestamp" ColumnName="lastlogontimestamp" />
+                <ScalarProperty Name="lockouttime" ColumnName="lockouttime" />
+                <ScalarProperty Name="pwdlastset" ColumnName="pwdlastset" />
+                <ScalarProperty Name="usnchanged" ColumnName="usnchanged" />
+                <ScalarProperty Name="usncreated" ColumnName="usncreated" />
+                <ScalarProperty Name="adspath" ColumnName="adspath" />
+                <ScalarProperty Name="altrecipient" ColumnName="altrecipient" />
+                <ScalarProperty Name="assistant" ColumnName="assistant" />
+                <ScalarProperty Name="autoreplymessage" ColumnName="autoreplymessage" />
+                <ScalarProperty Name="cn" ColumnName="cn" />
+                <ScalarProperty Name="co" ColumnName="co" />
+                <ScalarProperty Name="comment" ColumnName="comment" />
+                <ScalarProperty Name="company" ColumnName="company" />
+                <ScalarProperty Name="department" ColumnName="department" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="displayname" ColumnName="displayname" />
+                <ScalarProperty Name="displaynameprintable" ColumnName="displaynameprintable" />
+                <ScalarProperty Name="distinguishedname" ColumnName="distinguishedname" />
+                <ScalarProperty Name="facsimiletelephonenumber" ColumnName="facsimiletelephonenumber" />
+                <ScalarProperty Name="folderpathname" ColumnName="folderpathname" />
+                <ScalarProperty Name="givenname" ColumnName="givenname" />
+                <ScalarProperty Name="homedirectory" ColumnName="homedirectory" />
+                <ScalarProperty Name="homedrive" ColumnName="homedrive" />
+                <ScalarProperty Name="homemdb" ColumnName="homemdb" />
+                <ScalarProperty Name="homemta" ColumnName="homemta" />
+                <ScalarProperty Name="homephone" ColumnName="homephone" />
+                <ScalarProperty Name="info" ColumnName="info" />
+                <ScalarProperty Name="initials" ColumnName="initials" />
+                <ScalarProperty Name="ipphone" ColumnName="ipphone" />
+                <ScalarProperty Name="l" ColumnName="l" />
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="mailnickname" ColumnName="mailnickname" />
+                <ScalarProperty Name="managedby" ColumnName="managedby" />
+                <ScalarProperty Name="manager" ColumnName="manager" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="msexchhomeservername" ColumnName="msexchhomeservername" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="objectcategory" ColumnName="objectcategory" />
+                <ScalarProperty Name="otherhomephone" ColumnName="otherhomephone" />
+                <ScalarProperty Name="otherpager" ColumnName="otherpager" />
+                <ScalarProperty Name="othertelephone" ColumnName="othertelephone" />
+                <ScalarProperty Name="pager" ColumnName="pager" />
+                <ScalarProperty Name="physicaldeliveryofficename" ColumnName="physicaldeliveryofficename" />
+                <ScalarProperty Name="postalcode" ColumnName="postalcode" />
+                <ScalarProperty Name="samaccountname" ColumnName="samaccountname" />
+                <ScalarProperty Name="sn" ColumnName="sn" />
+                <ScalarProperty Name="st" ColumnName="st" />
+                <ScalarProperty Name="streetaddress" ColumnName="streetaddress" />
+                <ScalarProperty Name="targetaddress" ColumnName="targetaddress" />
+                <ScalarProperty Name="telephoneassistant" ColumnName="telephoneassistant" />
+                <ScalarProperty Name="telephonenumber" ColumnName="telephonenumber" />
+                <ScalarProperty Name="textencodedoraddress" ColumnName="textencodedoraddress" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="unauthorig" ColumnName="unauthorig" />
+                <ScalarProperty Name="unauthorigbl" ColumnName="unauthorigbl" />
+                <ScalarProperty Name="userprincipalname" ColumnName="userprincipalname" />
+                <ScalarProperty Name="wwwhomepage" ColumnName="wwwhomepage" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
