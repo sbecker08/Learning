@@ -1,0 +1,115 @@
+{
+    "name": "{{NAME}}",
+    "subject": "Test #1 via Script",
+    "from_name": "Marcus & Millichap",
+    "from_email": "ken.sayward@marcusmillichap.com",
+    "reply_to_email": "ken.sayward@marcusmillichap.com",
+    "is_permission_reminder_enabled": false,
+    "is_view_as_webpage_enabled": true,
+    "view_as_web_page_text": "View this message as a web page",
+    "view_as_web_page_link_text": "Click here",
+    "greeting_salutations": "Hello",
+    "greeting_name": "FIRST_NAME",
+    "greeting_string": "Dear ",
+    "email_content": "<html xmlns=\"http://www.w3.org/1999/xhtml\">
+<head>
+<title>Bloomberg TV: Compelling Investments Amid Market Turbulence</title>
+<meta name=\"robots\" content=\"noindex\" />
+<meta name=\"robots\" content=\"nofollow\" />
+
+
+</head>
+<body><br />
+<table width=\"650\" border=\"0\" align=\"center\" cellpadding=\"2\" cellspacing=\"0\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:12px;\">
+      <tr>
+        <td align=\"left\"> </td>
+    <td align=\"right\" style=\"font-family: Arial, Helvetica, sans-serif;font-size:12px;line-height:16px;\"><span style=\"vertical-align:middle;\">Follow us: &nbsp;</span><a href=\"http://twitter.com/mmreis\" title=\"Follow us on Twitter\" target=\"_blank\"><img src=\"http://www.marcusmillichap.com/Email/images/twitter_16px.gif\" alt=\"Follow us on Twitter\" width=\"16\" height=\"16\" border=\"0\" style=\"vertical-align:middle;\" /></a><span style=\"vertical-align:middle;\">&nbsp;|&nbsp;</span><a href=\"http://www.linkedin.com/company/6346\" title=\"Follow us on LinkedIn\" target=\"_blank\"><img src=\"http://www.marcusmillichap.com/Email/images/LinkedIn_16px.png\" alt=\"Follow us on Linked In\" width=\"16\" height=\"16\" border=\"0\" style=\"vertical-align:middle;\" /></a><span style=\"vertical-align:middle;\">&nbsp;|&nbsp;</span><a href=\"http://www.facebook.com/pages/Marcus-Millichap/470840972970891\" title=\"Like us on Facebook\" target=\"_blank\"><img src=\"http://www.marcusmillichap.com/Email/images/icon_16_facebook.png\" alt=\"Like Us on Facebook\" width=\"16\" height=\"16\" border=\"0\" style=\"vertical-align:middle;\" /></a><span style=\"vertical-align:middle;\">&nbsp;|&nbsp;</span><a href=\"http://plus.google.com/107334265641161061486/posts\" title=\"Find us on Google Plus\" target=\"_blank\"><img src=\"http://www.marcusmillichap.com/Email/images/icon_16_gplus.png\" alt=\"Find us on Google Plus\" width=\"16\" height=\"16\" border=\"0\" style=\"vertical-align:middle;\" /></a></td>
+      </tr>
+    </table>
+    <table style=\"border:2px solid #003d7d;\" cellspacing=\"0\" cellpadding=\"0\" width=\"650\" align=\"center\">
+        <tr>
+          <td style=\"\"><a href=\"http://www.marcusmillichap.com\"><img src=\"http://www.marcusmillichap.com/Email/headers_approved_2014/MM_Header_2014_Composite_650x121.jpg\" alt=\"Marcus &amp; Millichap\" width=\"650\" height=\"121\" border=\"0\" align=\"left\" style=\"display:block;float:left;margin:0;\" /></a></td>
+      </tr>
+        <tr>
+          <td align=\"center\" valign=\"top\" style=\"padding:0;\"><table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">
+                    <tr>
+                      <td align=\"center\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:18px;line-height:24px;color:#003d7d;padding-top:2px;padding-bottom:18px;\"><strong>Bloomberg Markets Asks If U.S. Commercial Real Estate<br />
+                      Will Continue to Attract Investors in 2016 <br />
+                      <span style=\"font-size:16px;\">In Conversation with Marcus &amp; Millichap&rsquo;s Hessam Nadji:</span></strong></td>
+                    </tr>
+                  </table>
+                  <table border=\"0\" align=\"center\" cellpadding=\"7\" cellspacing=\"0\" style=\"line-height:normal;\">
+                    <tr>
+                      <td align=\"left\" valign=\"top\" style=\"line-height:14px;font-family:Arial, Helvetica, sans-serif;font-size:14px;padding:0 5px 15px 0;vertical-align:top;\"><img src=\"http://www.marcusmillichap.com/Email/images/square_6x11.gif\" alt=\" \" width=\"6\" height=\"11\" style=\"display:block;float:left;\" /></td>
+                      <td align=\"left\" valign=\"top\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;padding:0 0 15px;\"><strong>Why commercial real estate offers a favorable yield profile in today&rsquo;s market</strong></td>
+                      
+                    </tr>
+                    <tr>
+                      <td align=\"left\" valign=\"top\" style=\"line-height:14px;font-family:Arial, Helvetica, sans-serif;font-size:14px;padding:0 5px 15px 0;vertical-align:top;\"><img src=\"http://www.marcusmillichap.com/Email/images/square_6x11.gif\" alt=\" \" width=\"6\" height=\"11\" style=\"display:block;float:left;\" /></td>
+                      <td align=\"left\" valign=\"top\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;padding:0 0 15px;\"><strong>How capital availability is supporting commercial real estate liquidity</strong></td>
+                    </tr>
+                    <tr>
+                      <td align=\"left\" valign=\"top\" style=\"line-height:14px;font-family:Arial, Helvetica, sans-serif;font-size:14px;padding:0 5px 15px 0;vertical-align:top;\"><img src=\"http://www.marcusmillichap.com/Email/images/square_6x11.gif\" alt=\" \" width=\"6\" height=\"11\" style=\"display:block;float:left;\" /></td>
+                      <td align=\"left\" valign=\"top\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;padding:0 0 15px;\"><strong>How property fundamentals are aligning with values</strong></td>
+                    </tr>
+                  </table>
+                  <table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" style=\"font-family:Arial, Helvetica, sans-serif;\">
+                    <tr>
+                      <td align=\"center\" valign=\"middle\" style=\"padding:5px 0 8px;font-size:16px;\">
+                      Play Segment:</td>
+                    </tr>
+                    <tr>
+                      <td align=\"center\" valign=\"middle\" style=\"margin:0;padding:10px 0;\"><a href=\"http://www.marcusmillichap.com/about-us/news-events/videos/2016/01/28/Bloomberg\" title=\"Play Hessam Nadji Interview\" style=\"color:#003d7d;text-decoration:none;\"><img style=\"border:1px solid #000000;\" src=\"http://www.marcusmillichap.com/Email/news/images/bloomberg_012816_eblast.jpg\" alt=\"Play Hessam Nadji Interview\" width=\"400\" height=\"250\" border=\"0\" /></a><br />
+<br />
+<span style=\"font-size:12px;\">Thursday, January 28, 2016</span></td>
+                    </tr>
+                  </table>
+                  <table border=\"0\" align=\"center\" cellpadding=\"10\" cellspacing=\"0\">
+                    <tr>
+                      <td align=\"left\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:left;\"> Our latest market research reports, including the <a href=\"http://www.marcusmillichap.com/research/researchreports/reports/2016/02/08/office-investment-forecast\">Office Investment Forecast</a> and the <br />
+                        <a href=\"http://www.marcusmillichap.com/research/researchreports/reports/2016/01/18/multifamily-investment-forecast\">Multifamily Investment Forecast</a>, are
+                      accessible at <span style=\"white-space:nowrap;\"><a href=\"http://www.marcusmillichap.com\">MarcusMillichap.com</a>.</span></td>
+                    </tr>
+                    <tr>
+                      <td align=\"left\" style=\"font-size:11px;font-family:Arial, Helvetica, sans-serif;text-align:center;\">To change 
+                          your email address or update your research report  
+                        preferences,
+                          <a href=\"https://www.marcusmillichap.com/my-dashboard/login-register\">click here</a>.</td>
+                    </tr>
+                </table></td>
+        </tr>
+        <tr>
+          <td align=\"center\" style=\"padding:0;\"><img style=\"display:block;float:left;margin:0;\" align=\"left\" src=\"http://www.marcusmillichap.com/Email/headers_approved_2014/MM_Footer_2014_650x28_no-shadow.jpg\" alt=\"Real Estate Investment Sales - Financing - Research - Advisory Services\" width=\"650\" height=\"28\" /></td>
+        </tr>
+      </table>
+<table cellspacing=\"0\" cellpadding=\"3\" width=\"650\" align=\"center\" border=\"0\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#777777;\">
+  <tr>
+    <td align=\"center\" style=\"color:#777777;padding:3px 0;\">Marcus &amp; Millichap  is a service mark of Marcus &amp; Millichap Real Estate Investment Services, Inc. 
+      <br />
+    &copy; 2016 Marcus &amp; Millichap. All Rights Reserved.</td>
+  </tr>
+</table>
+<!-- Google Analytics -->
+
+
+</body>
+</html>",
+    "text_content": "This is the text-only content of the email message for mail clients that do not support HTML.",
+    "email_content_format": "HTML",
+    "style_sheet": "",
+    "message_footer": {
+        "organization_name": "My Organization",
+        "address_line_1": "123 Maple Street",
+        "address_line_2": "Suite 1",
+        "address_line_3": "",
+        "city": "Anytown",
+        "state": "MA",
+        "international_state": "",
+        "postal_code": "01444",
+        "country": "US",
+        "include_forward_email": true,
+        "forward_email_link_text": "Click here to forward this message",
+        "include_subscribe_link": true,
+        "subscribe_link_text": "Subscribe to Our Newsletter!"
+    }
+}
